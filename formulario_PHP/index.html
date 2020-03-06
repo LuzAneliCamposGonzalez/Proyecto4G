@@ -1,0 +1,123 @@
+<DOCTYPE html>
+<html>
+<head>
+	<title>
+		Formulario
+	</title>
+</head>
+<body style="background-color:Lightpink;">
+	<div class="form">
+	<ul>
+		<center>
+			<h1>
+		        FORMULARIO
+	        </h1>
+		</center>
+	    <form action="guardar.php" method="POST">
+	        <label for="fname">
+		        Nombre:
+	        </label>
+	        <br>
+	        <input type="text" size="60" id="fname" name="fname">
+	        <br>
+	        <br>
+	        <label for="fapellidos">
+		        Apellido:
+	        </label>
+	        <br>
+	        <input type="text" size="70" id="fapellidos" name="fapellido">
+	        <br>
+	        <br>
+	        <label for="fedad">
+		        Edad:
+	        </label>
+	        <br>
+	        <input type="text" size="10" id="fedad" name="fedad">
+	        <br>
+	        <br>
+	        <label for="fnumero">
+		        Numero:
+	        </label>
+	        <br>
+	        <input type="text" size="30" id="fnumero" name="fnumero">
+	        <br>
+	        <br>
+	        <label for="fcorreo">
+		        Correo Electronico:
+	        </label>
+	        <br>
+	        <input type="text" size="50" id="fcorreo" name="fcorreo">
+	        <br>
+	        <br>
+	        <label for="fdireccion">
+		        Direccion:
+	        </label>
+	        <br>
+	        <input type="text" size="70" id="fdireccion" name="fdireccion">
+	        <br>
+	        <br>
+	        <label for="fRFC">
+		        RFC:
+	        </label>
+	        <br>
+	        <input type="text" size="8" id="fRFC" name="fRFC">
+	        <br>
+	        <br>
+	        <label for="fecha">
+		        Fecha:
+	        </label>
+	        <br>
+	        <input type="date" id="fecha" name="fecha">
+	        <br>
+			<label for="sexo">
+			    Sexo:
+			</label>
+			<br>
+			<select id="sexo"  name="sexo">
+				<option value="Masculino">
+				    Masculino
+				</option>
+				<option value="Femenino">
+					Femenino
+				</option>
+			</select>
+			<br>
+			<br>
+		    <label for="fidioma">
+		        Idioma:
+	        </label>
+	        <br>
+	        <input type="text" id="fidioma" name="fidioma">
+	        <br>
+			<label for="nivel_idioma">
+			    Nivel:
+			</label>
+			<br>
+			<select id="nivel_idioma" name="nivel_idioma">
+				<option value="Regular">
+				    Regular
+				</option>
+				<option value="Bueno">
+					Bueno
+				</option>
+				<option value="Experto">
+					Experto
+				</option>
+			</select>
+			<br>
+			<br>
+		    <label for="fdescripcion">
+		        Descripcion:
+	        </label>
+	        <br>
+	        <textarea rows="4" cols="18<0" id="fdescripcion" name="fdescripcion">
+	        </textarea>
+	        <br>
+	        <br>
+		    <input type="submit" value="Enviar">
+		    <input type="submit" value="Borrar">
+		</form>
+	</ul>
+    </div>
+</body>
+</html>
