@@ -1,0 +1,35 @@
+<DOCTYPE html>
+<title >Formulario Consulta</title>
+<html>
+
+<head>
+</head>
+
+<body style="background-color:E6CAFF;">
+    <center><h1>Formulario consulta</h1></center>
+    <form action="consultasucursal.php" method="POST">
+        <table>
+            <td>
+                <h2 >Sucursal a consultar:</h2>
+                <select id="consulta" name="consulta">
+                    <option value="sucursal">Sucursal</option>
+                </select>
+            </td>
+         </table>
+        <input type="text" name="nrandom1" placeholder="Lugar de la sucursal ">
+        <input type="Submit" value="Buscar">
+        <br>
+        <br>
+    </form>
+        <form action="consultacliente.php" method="POST">
+        <table>
+            <td>
+                <h2>Cliente a consultar</h2>
+                <select id="consulta" name="consulta">
+                    <option value="cliente">Cliente</option>
+                </select>
+            </td>
+         </table>
+        <input type="text" name="nrandom2" placeholder="Nombre del cliente">
+        <input type="Submit" value="Buscar">
+    </form>
